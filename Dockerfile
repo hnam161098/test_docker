@@ -7,4 +7,4 @@ COPY . ./
 
 RUN CGO_ENABLED=0 GOOS=linux go build -o /test_docker main.go
 EXPOSE 8080
-CMD ["/main.exe"]
+CMD ["/main"]
